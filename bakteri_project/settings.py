@@ -18,7 +18,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
@@ -28,7 +27,7 @@ SECRET_KEY = 'django-insecure--0jzam3!=3r@(v!e(2@!+q(u5excs9j4xl06stj2qldn1lejnl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [bakteri-project.up.railway.app]
+ALLOWED_HOSTS = ['bakteri-project.up.railway.app']
 
 
 # Application definition
